@@ -1,0 +1,13 @@
+# mixup_alpha_1.5.yaml
+model: resnet101
+epochs: 100
+batch: 128
+lr: 0.1
+wd: 0.0001
+amp: true
+seed: 42
+scheduler: cosine
+warmup: 0
+mixup:
+  alpha: 1.5
+randaug: null

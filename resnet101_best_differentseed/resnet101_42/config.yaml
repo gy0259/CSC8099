@@ -1,0 +1,19 @@
+amp: true
+batch: 128
+channels_last: false
+compile: false
+ema: null
+lr: 0.1
+mixup:
+  alpha: 0.8
+model: resnet101
+momentum: 0.9
+optimizer: SGD
+outdir: runs/S3_0.8_2_14_5_0.0005
+randaug:
+  magnitude: 14
+  num_ops: 2
+scheduler: cosine_warm
+seed: 42
+warmup: 5
+wd: 0.0005

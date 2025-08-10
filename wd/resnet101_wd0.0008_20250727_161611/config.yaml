@@ -1,0 +1,13 @@
+# wd_0.0008.yaml
+model: resnet101
+epochs: 100
+batch: 128
+lr: 0.1
+wd: 0.0008          # 单独调整 weight decay
+amp: true
+seed: 42
+scheduler: cosine
+warmup: 0
+mixup: null
+randaug: null
+

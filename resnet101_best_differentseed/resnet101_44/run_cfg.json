@@ -1,0 +1,26 @@
+{
+  "model": "resnet101",
+  "epochs": 100,
+  "batch": 128,
+  "lr": 0.1,
+  "wd": 0.0005,
+  "amp": true,
+  "seed": 44,
+  "scheduler": "cosine_warm",
+  "warmup": 5,
+  "warmup_iters": null,
+  "mixup": {
+    "alpha": 0.8
+  },
+  "ema": null,
+  "randaug": {
+    "magnitude": 14,
+    "num_ops": 2
+  },
+  "channels_last": false,
+  "compile": false,
+  "momentum": 0.9,
+  "optimizer": "SGD",
+  "_cfg_file": "D:\\8099\\yaml\\config.yaml",
+  "outdir": "runs"
+}

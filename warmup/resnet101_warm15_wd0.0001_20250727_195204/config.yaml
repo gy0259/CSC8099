@@ -1,0 +1,12 @@
+# warmup_15.yaml
+model: resnet101
+epochs: 100
+batch: 128
+lr: 0.1
+wd: 0.0001
+amp: true
+seed: 42
+scheduler: cosine_warm
+warmup: 15           # 15 个 epoch 线性 warm‑up
+mixup: null
+randaug: null
